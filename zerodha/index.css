@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color:  rgb(89, 88, 88);
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size: 17px;
+    letter-spacing: 1px;
+    z-index: 10;
+}
+h1 , h2 , h3{
+    font-weight: 500;
+    color: rgb(60, 57, 57);
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+}
+
+.nav{
+    top: 0px;
+    padding: 5px ;
+    position: fixed;
+    display: flex;
+    font-size: 22px;
+    background-color: whitesmoke;
+    z-index: 1000;
+    width: 100%;
+}
+.logo{
+    position: relative;
+    left: 200px;
+    color: rgb(46, 104, 152);
+}
+.logo img{
+    height: 18px;
+    margin-top: 8px;
+}
+.navigation{
+    font-size: 15px;
+    position:relative;
+    display: flex;
+    list-style-type: none;
+    left: 700px;
+}
+.nav .navigation li{
+    margin-top: 8px;
+}
+.bookmark{
+    display: flex;
+    list-style: none;
+}
+.bookmark a{
+    color: gray;
+    text-decoration: none;
+}
+.bookmark a:hover{
+    color: rgb(53, 53, 247);
+}
+.bookmark li{
+    letter-spacing: 1px;
+    padding: 0px 10px;
+}
+.bar{
+    padding: 5px 20px;
+    cursor: pointer;
+
+}
+.bar img{
+    height: 20px;
+}
+.bar .menubar{
+    position: absolute;
+    right: -1000px;
+    height: 300px;
+    width: 750px;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: white;
+}
+.bar:hover{
+    .menubar{
+        right: 1px;
+        top:38px
+    }
+}
+
+/* content */
+.img1{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.img1 img{
+    height: 400px;
+    width: 1000px;
+}
+.signup{
+    margin-top: 60px;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+}
+.signup p{
+    font-size: 19px;
+}
+button{
+    border: 0px;
+    margin-top: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(46, 104, 152);
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.content{
+    display: block;
+}
+.content1{
+    margin-top: 100px;
+    display: flex;
+    font-size: 25px;
+    /* border: 2px solid black; */
+}
+.content1 .left{
+    display: block;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 100px;
+    z-index: 1;
+}
+.content1 .left img{
+    height: 350px;
+}
+.content1 .right{
+    position: absolute;
+    right: 100px;
+    display: block;
+    justify-content: center;
+    width: 600px;
+}
+
+.content1 .right .unlist{
+    display: flex;
+}
+.content1 .right .unlist ul{
+    margin: 20px  50px;
+}
+.content1 .right .unlist li{
+    margin: 20px 0px;
+}
+
+.content2{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    top: 1300px;
+}
+.content2 h2{
+    margin-bottom: 20px;
+}
+.content2 p{
+    padding: 0px 350px;
+}
+.content2 img{
+    height: 500px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.content2 a{
+    text-decoration: none;
+    color: rgb(105, 105, 249);
+    font-size: 20px;
+    margin: 20px;
+}
+.content3{
+    margin: 0px auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 2150px;
+    width: 100%;
+}
+.content3 .left{
+    width: 400px;
+    margin-right: 100px;
+}
+.content3 .left h2{
+    margin-bottom: 20px;
+}
+.content3 .left a{
+    text-decoration: none;
+    color: rgb(105, 105, 249);
+    font-size: 20px;
+    margin: 20px;
+}
+.content3 .right{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.content3 .rightin{
+    border: 1px solid gray;
+    height: 170px;
+    width: 270px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 2px;
+}
+.content3 .rightin h2{
+    margin-bottom: 50px;
+}
+
+.content4{
+    margin: 0px auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 2400px;
+    width: 100%;
+}
+.content4 img{
+    height: 400px;
+    cursor: pointer;
+}
+
+.content4 .right{
+    margin-left: 100px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content4 .right a{
+    text-decoration: none;
+    color: rgb(105, 105, 249);
+    font-size: 17px;
+}
+
+.content5{
+    margin: 0px auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 2900px;
+    width: 100%;
+}
+.content5 .in{
+    display: block;
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    display: block;
+    height: 680px;
+    width: 100%;
+    background-color: whitesmoke;
+    top: 3100px;
+}
+.footer .info{
+    justify-content: center;
+    display: flex;
+    margin-left: 130px;
+}
+.footer .info .logo.part{
+    margin: 70px 70px;
+    padding: 0px;
+    left: 0px;
+}
+.footer .info .logo.part img{
+    height: 21px;;
+}
+.footer .info .logo.part p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: gray;
+}
+.footer .info .network img{
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 15px;
+    cursor: pointer;
+}
+.footer .info .part{
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 500px;
+}
+.footer .info .part h3{
+    margin-bottom: 20px;
+}
+.footer .info .part li{
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+}
+.footer .info .part li:hover{
+    color:rgb(105, 105, 249) ;
+}
+.footer .base{
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 50px;
+    font-size: 9px;
+}
+.footer .base p{
+    font-size: 9px;
+}
+.footer .base a{
+    font-size: 9px;
+}
+.footer .bottom ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    color: gray;
+
+}
+.footer .bottom li{
+    font-size: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.footer .bottom li:hover{
+    color: rgb(105, 105, 249);
+}
+.footer .base p a{
+    text-decoration: none;
+    color:rgb(105, 105, 249) ;
+}
+
